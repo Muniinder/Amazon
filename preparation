@@ -1,0 +1,30 @@
+DATA STRUCTURES:
+  TRIE, HEAPS, BST, BT, GRAPHS, TREE (their common function implementation)
+
+OBJECT ORIENTED :
+  Oops concepts, hands on practice with minimum two questions
+  Object-oriented design best practices
+  Common and useful design patterns, along with how to write software in an object-oriented way
+
+OPERATING SYSTEM:
+  Memory management
+  Processes and threads
+  Synchronization
+  Paging and Multithreading
+
+DATABASES:
+  Database concepts and their applications
+  Tradeoffs between relational and non-relational databases
+  
+INTERNET:
+  Fundamentals of how the internet works
+  Brush up on how browsers function at a high level, from DNS lookups and TCP/IP, to socket connections. 
+  How the worldwide web works is a requirement.
+  
+DISTRIBUTED COMPUTING:
+  Basic distributed computing concepts
+  Understanding topics such as service-oriented architectures (SOA), map-reduce, distributed caching, load balancing
+    
+ML AND AI:
+  Given a problem definition, you should be able to formulate it as a machine learning problem and propose a solution, 
+  including ideas for data sources, annotation, modeling approaches, and potential pitfalls
