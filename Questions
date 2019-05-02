@@ -1,19 +1,50 @@
 Why Amazon?
 Why are you keen to join us?
-
 Tell us about our product categories.
-
 Explain the 4 basics of OOP.
 Define data abstraction and its importance.
 Prepare an object-oriented model design (for an elevator, parking lot or movie theatre).
 Explain polymorphism.
 Find 10 of Amazon’s top-selling products.
-Explain the algorithms used to solve XXX problem.
-Questions about the data structure.
-Write code on arrays.
 What are the time and space complexity differences over iterating between arrays, hashes, binary trees, etc?
 Code client-side javascript.
 How would you find all HTML elements on a page by class?
+
+--------------------------------------------------------------------------------------------------------------------------
+GFG EXP:
+  Question1: Introduce yourself
+  Question2: Can you tell me about any scenario where you have taken an initiative in your previous jobs to do 
+             something/ solve something that was not strictly required of you.
+  Question3: Design a basic LRU cache using basic data structures.
+  
+  Questions asked :
+  1. Tell me about yourself.
+  2. What was your college project as well as what type of platforms used?
+  3. What is TRIE?
+  4. Write the function for insert and search for TRIE?
+  5. DFS and BFS .
+  6. How to get the shortest path from (0 , 0) to (r , c) in a rectangular grid in which some cells are blocked.
+  
+  Ques1. Find top 10 selling product given the count of sales of each product.
+  Ques2. Design a valet parking lot with basic use-case of assigning ticket to customer and retrieving the car later. 
+         Three sizes available. Use best fit and nearest distance.
+  
+  Telephonic interview:
+  1. Given a string, display the words in reverse order
+  I/p: I work at xyz
+  O/p: xyz at work I
+
+  2. Given a linked list modify the linked list as below
+  I/p: a x b c y z
+  O/p: a b c x y z
+
+  3. What is virtual memory.
+
+  4. If I am designing a media player and I want to store songs and play them in random order.
+  a) what data structure will you use to store songs?
+  b) how will select the next song to play in a way which prevents the same song being played in consecutive turn.
+
+
 
 CUSTOMER OBSESSION: Walk us through a time when you helped a customer through a difficult process and what that looked like.
 OWNERSHIP: Give me a example of when you took a risk and it failed.
