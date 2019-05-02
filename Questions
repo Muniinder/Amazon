@@ -1,18 +1,44 @@
-Why Amazon?
+Why Amazon? 
+    I find Amazon to be the most customer centric company of this planet. I mean it. I have been a customer for ages and 
+    have always wondered how efficient and scalable your hardware and software systems are. I am sure it will be a huge 
+    learning opportunity for me to be part of Amazon. I will actually be proud to contribute to its growth.
+    
 Why are you keen to join us?
+    
+    
 Tell us about our product categories.
+
 Explain the 4 basics of OOP.
+    POLYMORPHISM
+    ENCAPSULATION
+    DATA ABSTRACTION
+    INHERITANCE
 Define data abstraction and its importance.
+    Data Abstraction means hiding the implemetation part and show whts necessary, for e.g. like we have a dvd player, internally 
+    there are lot of chips, etc is present, but outside they have shown just a few buttons to operate, means hiding the complexity 
+    or internal implementation and show whats necessary to operate.
+    Its important because we can change our implementation part without letting know the user and also for the purpose of secuirity
+    we hide the implementation part so that no one knows from outside how we did that.
+    
 Prepare an object-oriented model design (for an elevator, parking lot or movie theatre).
+
 Explain polymorphism.
+    Poly means many and morph means forms, we usually use this to reduce redundancy in our code.for 
+    e.g In python it can be achived as in function overriding.
+    
 Find 10 of Amazon’s top-selling products.
+    If i have access to amazon database, it would be still quite time consuminng task as it has a lot of data.
+    But i will make a max heap upto 10 elements and iterate over all the items.
+    
 What are the time and space complexity differences over iterating between arrays, hashes, binary trees, etc?
+    
 Code client-side javascript.
 How would you find all HTML elements on a page by class?
 
 --------------------------------------------------------------------------------------------------------------------------
 GFG EXP:
   Question1: Introduce yourself
+      
   Question2: Can you tell me about any scenario where you have taken an initiative in your previous jobs to do 
              something/ solve something that was not strictly required of you.
   Question3: Design a basic LRU cache using basic data structures.
