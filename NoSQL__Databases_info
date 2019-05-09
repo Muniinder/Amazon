@@ -1,0 +1,67 @@
+NoSQL databases store data in four ways.
+  - Key-Value Store             (e.g. Riak, Redis, MemcacheDB)
+  - Column Family Store         (e.g. HBase, Cassandra)
+  - Document-Oriented Database  (e.g. MongoDB, CouchDB)
+  - Graph Database              (e.g. Neo4J, HyperGraphDB, InfoGrid)
+   
+   
+1.  Key-Value Store 
+  - They are used to implement shopping carts, user sessions, customer preferences etc. Let us take an example of shopping cart:
+  - Shopping cart is used to store selected items before final payment.
+  - A cart is maintained for each customer. Here, customer ID is set as the key. A list of selected items is set as the value.
+  - A customer can view items from their cart, add or remove items from it. The cart will be deleted when it is no longer needed. 
+    These customer actions are supported using Get, Put and Delete operations.
+  - The online store will not need to query carts based on items stored in them. This suits the Key-Value Store as we cannot search 
+    by value.
+ 
+2.  Column Family Store characteristics:
+  - Column Family databases can handle hundreds of terabytes of data easily.
+  - Updates are performed without reading the row that contains it. Hence writes are very quick.
+  - Column Family databases support real-time insertion of huge amount of data e.g. one million writes per second.
+
+  Column Family Store use cases:
+  - Real-time weather data (min. temperature, max. temperature, air pressure etc.) collected through sensors at multiple locations.
+  - Log files of web servers for data analysis.
+
+3.  Document Oriented databases
+    Key (like Primary Key)	Value (document with attributes and values)
+    111                     { category: "book", price: 250, author: "Herbert Schildt", title: "Java Programming" }
+    222                     { category: "tv", price: 20000, screensize: 40, display: "LCD" }
+    333                     { category: "mobile", os: "Android", screensize: "5 inch", camera:"13MP", price: 4000 }
+
+    Document Oriented databases have following characteristics:
+  - Supports flexible schema, i.e. each document can have different attributes.
+  - Provides a rich query language for storing, fetching, modifying and deleting data. This allows search and filter by any 
+    attribute value.
+  - Ensures rapid application development e.g. In a fast changing retail store scenario, where products and their attributes 
+    are frequently changing.
+  - Are suitable for storing data that does not require frequent updates, but is read many times.
+
+4.  Graph databases 
+  - They are suited for data that are heavily interconnected through relationships.
+  - Graphs do not need joins for querying.
+  - Graph databases use graph theory for traversal. It improves performance by keeping track of and thereby skipping nodes 
+    already visited.
+  - Graph databases provide Atomicity, Consistency, Isolation and Durability (similar to SQL).
+  
+  POLYGLOT PERSISTENCE:
+  - Different NoSQL databases and relational databases complement each other as they are suitable for different scenarios. 
+  - Increasingly applications are being designed to use multiple types of databases leveraging each for their strength in specific areas.
+  - This is called polyglot persistence. Let us see an example through an architecture used by a hypothetical internet-based retailer 
+    shophere.com.
+
+Cases : 
+1.  Disadvantages of using RDBMS for storing product and category data:
+  - If we use just a single table to model all attributes of all products, it will result in too many NULL values and will be inefficient.
+  - If we create one table for each category, it will result in too many tables. This will result in huge amount of coding work.
+  - As the attributes of the products keep changing, we will have to update the DB schema.
+
+2.  Why Key-Value store is not suitable for storing product and category data:
+  - Retail store users often need to search for products based on various data attributes e.g. show all televisions having 
+    32 inch screen size. Key-Value stores do not allow search based on data attributes in value.
+    
+Ans-Document-Oriented databases offer a solution for dealing with this problem. We will see it next.
+3.  To represent twitter users and their followers:
+  - we need entities and relationships. 
+  - Key-value stores, column family stores and document-oriented databases does not support relationships (foreign keys).
+  - Relational databases also are not suitable for storing data with complex chain of relationships (foreign keys).
