@@ -1,0 +1,32 @@
+PLANAR DATA CLASSIFICATION:
+Libraries: numpy, matplotlib.pyplot, sklearn, sklearn.datasets, sklearn.linear_model
+
+              2 input layer             1 hidden layer of size 4            output layer 
+
+1. Define the neural network structure ( # of input units,  # of hidden units, etc). 
+2. Initialize the model's parameters
+3. Loop:
+    - Implement forward propagation , wx + b
+    - Compute loss                    J 
+    - Implement backward propagation to get the gradients
+    - Update parameters (gradient descent) 
+    
+ 
+ACTIVATION FUNCTION  at hidden layers   = tanh
+activation function at the output layer = sigmoid function
+
+
+BINARY CLASSIFICATION to predict if image is cat or dog:
+I used simple model i.e. logistic regression which outputs 0 or 1 based on training.
+
+Libraries: numpy, matplotlib.pyplot, sklearn, sklearn.datasets, sklearn.linear_model
+          input layer           output
+          
+1. Define the model structure (such as number of input features)
+2. Initialize the model's parameters
+3. Loop:
+    Calculate current loss (forward propagation)     
+    Calculate current gradient (backward propagation)   
+    Update parameters (gradient descent)
+    
+ACTIVATION FUNCTION = sigmoid function
