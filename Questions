@@ -2,11 +2,130 @@ Why Amazon?
     I find Amazon to be the most customer centric company of this planet. I mean it. I have been a customer for ages and 
     have always wondered how efficient and scalable your hardware and software systems are. I am sure it will be a huge 
     learning opportunity for me to be part of Amazon. I will actually be proud to contribute to its growth.
+
+Question1: Introduce yourself/ Tell me about yourself.
+Ans :   My name is Muninder Jeet Singh,i pursued my bachelors in Chemical Engg at National Institute of Technology,Jalandhar . 
+        I play guitar and play basketball in my free time, i also have my own youtube channel in which i arrange famous Indian 
+        songs in fingerstyle guitar and gives lessons of that too.
+        Apart from that, i love doing work of a software engineer, i had made my own portfolio. from past 1.5 years i have been 
+        fascinated with the software industry so much, i can chat about compter science projects all day long.
+        I have also been fasinated with machine learning and deep learning that i started upskilling myself in that area.
+        i had also 0.5 months experience in it industry, i have worked on e-book library project, sap abap project which i love to work
+        I beleieve with Software engineering we have the power to do anything
+        
+Question2: Can you tell me about any scenario where you have taken an initiative in your previous jobs to do something/solve something 
+           that was not strictly required of you.   
+    Sit.    : In SAP project we have given srs document to make custom screens using abap module pool programs, 
+    Task    : I  think about about the customer point of view how they will gonna use this, so basically we thought of as they 
+              have to always open sap and perform the transaction code, why not they'll also able to open on another computer
+              which has no sap software but can access to sap
+    Action  : So i made a single click web page interface that connects with sap which performs to view the details of a particular 
+              order or to make an order using web dynpro component.
+    Result  : The new functionality added
     
-Why are you keen to join us?
+
+IF YOU ARE GIVEN OPEN ENDED QUESTION, ALWAYS THINK ABOUT CUSTOMER POINT OF VIEW.
+
+CUSTOMER OBSESSION: Walk us through a time when you helped a customer through a difficult process and what that looked like.
+
+    Sit.    : In SAP project we have given srs document to make custom screens using abap module pool programs, 
+    Task    : I  think about about the customer point of view how they will gonna use this, so basically we thought of as they 
+              have to always open sap and perform the transaction code, why not they'll also able to open on another computer
+              which has no sap software but can access to sap
+    Action  : So i made a single click web page interface that connects with sap which performs to view the details of a particular 
+              order or to make an order using web dynpro component.
+    Result  : The new functionality added
     
+OWNERSHIP: Give me a example of when you took a risk and it failed.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+INVENT AND SIMPLIFY: Tell me a time when you created an innovative product.
+    Resume Portal
+    Sit.    : Its our 3rd year in college and companies started to came in our college, Placement representatives from our classes were
+              struggled to collect resumes of all the students because sometimes students send wrong resume, or some people forget to
+              send resume, kind of these problems
+    Task    : we have to think about how this process removes redundancy so that Placement reperesentatives get focus on getting 
+              companies rather than just struggling with collecting ids only
+    Action  : i along with my friends came up with the solution, to create an online portal where student can login and can upload
+              there resume and other information (if required) because different companies need different information and the 
+              placement representative can collect resumes in his google drive id with a single click.
+    REsult  : So we all make this in a week, i particularly make the front end parts.
     
-Tell us about our product categories.
+ARE RIGHT, A LOT: Tell me about a time when you observed two business opportunities to improve ROI, and how did you determine that 
+                  they were connected.
+
+LEARN AND BE CURIOUS: How do you find the time to stay inspired, acquire new knowledge, innovate in your work?
+    I chose to become a software engineer, because i love to do the work and when the product is created it feels good how with just 
+    programming we can cut out redundant task easily. 
+    
+    Sit.    : I was amazed by ml and deep learning in the field of healthcare, amazon go, its really fascinating that how we can 
+              show data into mathematical models and work on to predict real case scenarios
+    Task    : so i just started learning ml and deep learning
+    Action  : that motivated me to learn and work more in these fields and today i feel that with deep learning and ml we can create
+              anything, we just need data, thats all
+    REsult  :
+
+HIRE AND DEVELOP THE BEST: Tell me about a time when you had to deal with a poor performer on your team.
+    Sit.    : 
+    Task    :
+    Action  :
+    REsult  :
+
+INSIST ON THE HIGHEST STANDARDS: Tell me about a time when you could have stopped working but persisted.
+    Sit.    : It was my you tube channel where i could have stopped working but i am still working on it, 
+    Task    : because to make a single video you have to record audio and video differently and do the editing and all these works done
+              by me 
+    Action  : fill all the meta data, research on seo, how to choose a song for next cover, check rankings of keywords 
+    REsult  : till now i am working on it and its really started to rise from previous results
+
+THINK BIG: Tell me about a time when you proposed a new business.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+BIAS FOR ACTION: Describe how you would handle a busy situation where three people are waiting for help from you.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+FRUGALITY: Tell me about a time where you thought of a clever new way to save money for the company.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+EARN TRUST: Tell me a time when you earned trust of a group.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+DIVE DEEP: Tell me about a time when you had to dive deep into the data and the results you achieved.
+    you tube story of tera ghata, still highest views in my channel
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+HAVE BACKBONE, DISAGREE AND COMMIT : Tell me about the most difficult interaction you had at work.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+DELIVER RESULTS: Tell me about a time where you overcame an obstacle and delivered results.
+    Sit.    :
+    Task    :
+    Action  :
+    REsult  :
+
+
+
 
 Explain the 4 basics of OOP.
     POLYMORPHISM
@@ -35,29 +154,19 @@ What are the time and space complexity differences over iterating between arrays
 Code client-side javascript.
 How would you find all HTML elements on a page by class?
 
---------------------------------------------------------------------------------------------------------------------------
-GFG EXP:
-  Question1: Introduce yourself
-  Ans:  My name is Muninder Jeet Singh,i pursued my bachelors in Chemical Engg at National Institute of Technology,Jalandhar . 
-        I play guitar and play basketball in my free time, i also have my own youtube channel in which i arrange famous Indian 
-        songs in fingerstyle guitar and gives lessons of that too.
-        Apart from that, i love doing work of a software engineer, i had made my own portfolio. from past 1.5 years i have been 
-        fascinated with the software industry so much, i can chat about compter science projects all day long.
-        I have also been fasinated with machine learning and deep learning that i started upskilling myself in that area.
-        i had also 0.5 months experience in it industry, i have worked on sap abap project, e-book library project, which i love to work
-        I beleieve with Software engineering you have the power to do anything
-        
-  Question2: Can you tell me about any scenario where you have taken an initiative in your previous jobs to do 
-             something/ solve something that was not strictly required of you.
+
   Question3: Design a basic LRU cache using basic data structures.
   
-  Questions asked :
-  1. Tell me about yourself.
-  2. What was your college project as well as what type of platforms used?
-  3. What is TRIE?
-  4. Write the function for insert and search for TRIE?
-  5. DFS and BFS .
-  6. How to get the shortest path from (0 , 0) to (r , c) in a rectangular grid in which some cells are blocked.
+Questions asked :
+1. Tell me about yourself.   
+2. What was your college project as well as what type of platforms used?
+    We have made Resume Portal:
+        I have been worked on front end part
+        
+3. What is TRIE?
+4. Write the function for insert and search for TRIE?
+5. DFS and BFS .
+6. How to get the shortest path from (0 , 0) to (r , c) in a rectangular grid in which some cells are blocked.
   
   Ques1. Find top 10 selling product given the count of sales of each product.
   Ques2. Design a valet parking lot with basic use-case of assigning ticket to customer and retrieving the car later. 
@@ -78,19 +187,3 @@ GFG EXP:
   a) what data structure will you use to store songs?
   b) how will select the next song to play in a way which prevents the same song being played in consecutive turn.
 
-
-
-CUSTOMER OBSESSION: Walk us through a time when you helped a customer through a difficult process and what that looked like.
-OWNERSHIP: Give me a example of when you took a risk and it failed.
-INVENT AND SIMPLIFY: Tell me a time when you created an innovative product.
-ARE RIGHT, A LOT: Tell me about a time when you observed two business opportunities to improve ROI, and how did you determine that they were connected.
-LEARN AND BE CURIOUS: How do you find the time to stay inspired, acquire new knowledge, innovate in your work?
-HIRE AND DEVELOP THE BEST: Tell me about a time when you had to deal with a poor performer on your team.
-INSIST ON THE HIGHEST STANDARDS: Tell me about a time when you could have stopped working but persisted.
-THINK BIG: Tell me about a time when you proposed a new business.
-BIAS FOR ACTION: Describe how you would handle a busy situation where three people are waiting for help from you.
-FRUGALITY: Tell me about a time where you thought of a clever new way to save money for the company.
-EARN TRUST: Tell me a time when you earned trust of a group.
-DIVE DEEP: Tell me about a time when you had to dive deep into the data and the results you achieved.
-HAVE BACKBONE, DISAGREE AND COMMIT : Tell me about the most difficult interaction you had at work.
-DELIVER RESULTS: Tell me about a time where you overcame an obstacle and delivered results.
