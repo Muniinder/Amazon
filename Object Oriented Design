@@ -1,2 +1,14 @@
 SOLID PRINCIPLES : https://medium.com/mindorks/solid-principles-explained-with-examples-79d1ce114ace
 
+
+STEPS:
+  1.  Handling Ambiguity: ask clarifying question, 
+      - do you want me to come up with the system design
+      - do you want me to write class hierarchy
+      - or just certain function or methods 
+  2.  Systematic Approach
+      - approach and try to find what more data you need
+      - ask question about the type of data, how much data etc.
+  3.  Make a image in your mind how this particular design gonna look like 
+      ( e.g. parking lot : it can be designed for multiple buildings, multiple levels, have different size of spots)
+      
