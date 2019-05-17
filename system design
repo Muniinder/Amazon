@@ -1,0 +1,38 @@
+MICROSERVICES AND MONOLITHICS:
+  Why Microservices : 
+    - able to scale different services individually
+    - parallel development easy
+    - loosely coupled woild be great
+
+LOAD BALANCER:
+  Load balancing is to distribute a large number of requests to different servers, to ease the burden of a single server.
+  Generally speaking, load balancers fall into three categories:
+  1. DNS Round Robin (rarely used): clients get a randomly-ordered list of IP addresses.
+      pros: easy to implement and free
+      cons: hard to control and not responsive, since DNS cache needs time to expire
+  2. L3/L4 Load Balancer: traffic is routed by IP address and port. L3 is network layer (IP). L4 is session layer (TCP).
+      pros: better granularity, simple, responsive
+  3. L7 Load Balancer: traffic is routed by what is inside the HTTP protocol. L7 is application layer (HTTP).
+  
+How to scale load balancer when we add/remove servers................?
+  - Consistent Hashing
+WHAT IF A ONE SERVER FAIL.........?
+  - Increase the no. of Nodes
+  - Have a Master/Slave Architect       writes onloy done in masters and slave is used for reading only
+  
+  
+  
+  FOR EXAMPLES:
+    TINDER DESIGN:
+      CLIENT----------Gateway Service-------------Profile Service ---------------connected to database db0
+                (to ensure loosely coupled)        
+                              |
+                              |-------------------Direct Message Service---------connected to database db1
+                              |-------------------Recommend Profiles service-----connected to database db2
+    
+    Databases : Cassandra/DynamoDB
+                Sharding or Horizontal Partitioning
+    Master/Slave Architecture
+                
+                              
+                              
