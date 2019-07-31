@@ -65,3 +65,16 @@ Ans-Document-Oriented databases offer a solution for dealing with this problem. 
   - we need entities and relationships. 
   - Key-value stores, column family stores and document-oriented databases does not support relationships (foreign keys).
   - Relational databases also are not suitable for storing data with complex chain of relationships (foreign keys).
+  
+  
+  
+  
+  HOW DO ARCHITECTURES FUNDAMENTALLY DIFFER ?
+    RDBMS:- DISK FIRST
+      write to disk ----> log for availability  ----> Cache index to memory
+    
+    EDBMS:- MEMORY FIRST  (NOSQL)
+      cache data and index in memory  ----> replicate for availability  ----> write to disk
+  
+GREAT THINGS TO LEARN DBMS.
+  https://learn.couchbase.com/enrollments/29903954/page/121907278
